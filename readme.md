@@ -20,12 +20,12 @@ Be sure to name your database  "symfonyapi" or change the config in the .env fil
 ### POST
 <strong>Create new user:</strong> url + /api/user 
 
-<strong>Body:</strong> form-data: {Key: name, email, password}, {Value: $name, $email, $password}
+<strong>-> Body:</strong> form-data: {Key: name, email, password}, {Value: $name, $email, $password}
 
 ### PUT
 <strong>Update user:</strong> url + /api/user/$id
 
-<strong>Body:</strong> x-www-form-urlencoded: {Key: name, email, password}, {Value: $name, $email, $password}
+<strong>-> Body:</strong> x-www-form-urlencoded: {Key: name, email, password}, {Value: $name, $email, $password}
 
 ### DELETE
 <strong>Delete user:</strong> url + /api/user/$id 
